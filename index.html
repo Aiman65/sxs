@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>St. Xavier's School</title>
+    <!--/  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    /-->
+
+    <!-- Site Icons -->
+    <link href="images/logo2.png" rel="icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!--/
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+	/-->
+
+    <!--/
+	<div id="preloader">
+		<div class="loader-container">navbar navbar-b navbar-trans navbar-expand-lg bg-light fixed-top
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	/-->
+	<!-- END LOADER -->	
+	
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-b navbar-trans navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<p style="color: white;font-size: 30px;">St. Xavier's School</p>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item "><a class="nav-link" href="#don">Don Bosco</a></li>
+						<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+						<!--/
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="/blog.html" id="dropdown-a" data-toggle="dropdown"><strong>Gellary</strong> </a>
+							
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="course-grid-2.html">Library</a>
+								<a class="dropdown-item" href="course-grid-3.html">Course Grid 3 </a>
+								<a class="dropdown-item" href="course-grid-4.html">Course Grid 4 </a>
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="blog.html">Blog </a>
+								<a class="dropdown-item" href="blog-single.html">Blog single </a>
+							</div>
+						</li>
+						
+						<li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+						/-->
+						<li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+						<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#con">Contact</a></li>
+					</ul>
+					<!--/
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Book Now</span></a></li>
+                    </ul>
+                    /-->
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-interval="false" >
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<div id="home" class="first-section" style="background-image:url('images/slide-1.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-center">
+									<div class="big-tagline">
+										<h2><strong>St.</strong> Xavier's School</h2>
+
+										<p class="lead">( A DON BOSCO INSTITUTION )</p>
+										<p class="lead">EIIN : 136662 <br> School Code : 8343 <br>Birisiri, Durgapur, Netrakona</p>
+										<a href="#con" class="hover-btn-new orange"><span>Contact Us</span></a>
+										<!--/
+											<a href="#" class="hover-btn-new"><span>Contact Us</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#" class="hover-btn-new"><span>Read More</span></a>
+										/-->	
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>			
+		</div>
+	</div>
+	
+    <div id="overviews" class="section wb">
+        <div class="container" >
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+
+                    <h3 >About</h3>
+                    <img src="images/logo2.png" style="margin-top: 0px; padding-top: 0px;">
+                    <p class="lead">St. Xavier's School is committed to developing students' values and honest leadership.</p>
+                </div>
+            </div><!-- end title -->
+        
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>Welcome to </h4>
+                        <h2>St.Xavier's School</h2>
+                        <p><h3>Our Dream</h3></p>
+
+                        <p> Our goal is to prepare for the next life through holistic teaching. Just the knowledge of letters is new, we want to educate students. In addition to enlightening their hearts in the light of Don Bosco’s teaching method, we take care to develop their skills in a pleasant environment.
+
+ </p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/ruman_sir.jpg" height="70%" width="70%" style="border:solid #f1f1f1 10px; border-radius: 70px;" alt="" class="img-fluid img-rounded">
+                        <blockquote style="text-align: center;"><strong>Rumon Rangsa </strong> - Head Teacher</blockquote>
+
+                    </div><!-- end media -->
+                </div><!-- end col -->
+			</div>
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/don_bosco.jpg" alt="" class="img-fluid img-rounded" style="border:solid #f1f1f1 10px; border-radius: 70px;">
+                        <blockquote style="text-align: center;"><strong>Don Bosco </strong></blockquote>
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Don Bosco</h2>
+                        <p>Don Bosco was an Italian Roman Catholic priest, educator,
+						and writer of the 19th century. 
+						</p>
+
+                        <p>While working in Turin, where the
+						population suffered many of the ill-effects of industrialization and
+						urbanization, he dedicated his life to the betterment and education
+						of street children, juvenile delinquents, and other disadvantaged
+						youth. He developed teaching methods based on love rather than
+						punishment, a method that became known as the Salesian
+						Preventive System.</p>
+
+                        <a href="https://en.wikipedia.org/w/index.php?title=John_Bosco&oldid=1039038741" target="_blank" class="hover-btn-new orange"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <section class="section lb page-section">
+		<div class="container">
+			 <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>Our history</h3>
+                    <p class="lead"></p>
+                </div>
+            </div><!-- end title -->
+			<div class="timeline">
+				<div class="timeline__wrap">
+					<div class="timeline__items">
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-01">
+								<h2>1962</h2>
+								<p>With the help of Father Alphonse Koraya, a land was purchased and a 9-16 cubit long school house was built to inculcate Christian ideals and values in the children.  </p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-02">
+								<h2>1970</h2>
+								<p>A new church-school house with a length of 20-60 cubits was built.  The house is made of mud brick, fence and tin canopy.  Worship and classes are held in the same room by spreading rows and sacks.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-03">
+								<h2>1978</h2>
+								<p>The school was closed due to unavoidable reasons on the instructions of the mission authorities.  The school was closed for 12 long years.  At that time there was a lot of loss of reading and writing for boys and girls.  </p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-04">
+								<h2>1999</h2>
+								<p>After the death of Mr. Bidhi Peter Dang in a sudden accident in 1999, on October 1 of the same year, the school was included in Mymensingh Dharmapradesh.  This was made possible by the sincerity of Bishop Panen Paul Kubi C, S, C.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-01">
+								<h2>2009</h2>
+								<p>With the help of the fathers of the Bosco Salicians, the mission and the large two-story, modern and standard school building on the east side of the road have been constructed.  Not only that, there are modern libraries, science labs, computer labs and campuses controlled by CCTV cameras.  As a result of this well-arranged system, boys / girls are getting a pleasant learning environment.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-02">
+								<h2>2011</h2>
+								<p>According to the demands of the locals and the decision of the school managing committee, St. Xavier's school was started up to lower secondary level in 2011.  </p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-03">
+								<h2>2019</h2>
+								<p>It is to be noted that the community has started a modern college called 'Don Bosco College' from 2019, subject to the demands of the age and the recommendation of the locals.</p>
+							</div>
+						</div>
+						<!--/
+						<div class="timeline__item">
+							<div class="timeline__content img-bg-04">
+								<h2>2002</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim neque condimentum lacus dapibus. Lorem
+									ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						/-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="section cl">
+		<div class="container">
+			<div class="row text-left stat-wrap">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-study"></i></span>
+					<p class="stat_count">800+</p>
+					<h3>Students</h3>
+				</div><!-- end col -->
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-online"></i></span>
+					<p class="stat_count">70+</p>
+					<h3>Teachers</h3>
+				</div><!-- end col -->
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-years"></i></span>
+					<p class="stat_count">22</p>
+					<h3>Years Completed</h3>
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+
+
+
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/don_bosco.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3 id="don">Don Bosco</h3>
+                <p>Our Father, Who art in heaven, halaowed be thy name, Thy kingdom come...</p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div class="parallax section dbcolor" >
+        <div class="container">
+            <div class="row ">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/don_bosco.jpg" height="70%" width="70%" style="border:solid #f1f1f1 10px; border-radius: 70px; float: right;" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+			</div>
+
+			<br>
+				<blockquote>John Melchior Bosco (Italian: Giovanni Melchiorre Bosco; 16
+					August 1815),
+					popularly known as Don Bosco,
+					was an Italian Roman Catholic priest, educator,
+					and writer of the 19th century. While working in Turin, where the
+					population suffered many of the ill-effects of industrialization and
+					urbanization, he dedicated his life to the betterment and education
+					of street children, juvenile delinquents, and other disadvantaged
+					youth. He developed teaching methods based on love rather than
+					punishment, a method that became known as the Salesian
+					Preventive System.
+					</blockquote>
+					<br>
+					<blockquote>A follower of the spirituality and philosophy of Francis de Sales,
+					Bosco was an ardent devotee of Mary, mother of Jesus, under the
+					title Mary Help of Christians. He later dedicated his works to de
+					Sales when he founded the Salesians of Don Bosco, based in
+					Turin.
+					Together with Maria Domenica Mazzarello, he founded
+					the Institute of the Daughters of Mary Help of Christians, a
+					religious congregation of nuns dedicated to the care and education
+					of poor girls. He taught Dominic Savio, of whom he wrote a
+					biography that helped the young boy be canonized.</blockquote>
+					<br>
+					<blockquote>He is one of the pioneers of Mutual Aid Societies that were
+					initiated as collaborative financial support to young migrant
+					Catholic Workers in the city of Turin. In 1850 he drew up
+					regulations to assist apprentices and their companions when any of
+					them was involuntary without work or fell ill.
+					</blockquote>
+					<br>
+					<blockquote>On 18 April 1869, one year after the construction of the Basilica of
+					Mary Help of Christians in Turin, Don Bosco established the
+					Association of Mary Help of Christians (ADMA) connecting it
+					with commitments easily fulfilled by most common people, to the
+					spirituality and the mission of the Salesian Congregation (CG 24
+					SDB, 1996, NR. 80). The ADMA was founded to promote the
+					veneration of the Most Holy Sacrament and Mary Help of
+					Christians (Don Bosco, Association of the Devotees of Mary Help
+					of Christians, San Benigno Canavese, 1890, page 33).
+					</blockquote>
+					<br>
+					<blockquote>In 1875, he began to publish the Salesian Bulletin.
+					The
+					Bulletin has remained in continuous publication, and is currently
+					published in 50 different editions and 30 languages.
+					
+					In 1876,
+					Bosco founded a movement of laity, the Association of Salesian
+					Cooperators, with the same educational mission to the poor.Bosco established a network of organizations and centres to carry
+					on his work. Following his beatification in 1929, he was
+					canonized as a saint in the Roman Catholic Church by Pope Pius
+					XI in 1934.
+					</blockquote>
+					<a  href="https://en.wikipedia.org/w/index.php?title=John_Bosco&oldid=1039038741" target="_blank" class="hover-btn-new orange"><span>Learn More</span></a>
+
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <footer class="footer" >
+        <div class="container">
+            <div class="row">
+            	<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Website Creator</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="https://aiman65.github.io/my/" target="_blank"><strong>Md. Shamsul Alam Iman</strong> - Developer
+                            	<br><br>Student Of St. Xavier's School
+                                <br>Class : 10<br>2021</a></li>
+                        </ul><!-- end links -->
+                    </div>
+                    <!-- end clearfix -->
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Special Thanks To..</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="https://aiman65.github.io/porosh/" target="_blank"><strong>Faysal Mahmod Porosh</strong>
+                            	<br><br>Student Of St. Xavier's School
+                                <br>Class : 10<br>2021</a></li>
+                        </ul>   
+												
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                        	<li><a href="tel:01811-246593">Mobile : +88 01811-246593</li></a>
+                            <li><a href="mailto:st136662@gmail.com">Mail : st136662@gmail.com</a></li>
+							<li ><a href="https://www.facebook.com/profile.php?id=100063472301562&__tn__=%3C" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li>Birisiri, Durgapur, Netrakona, Bangladesh</li>
+
+                            <!--/
+                            <li>+61 3 8376 6284</li>
+                            /-->
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+		                <div class="footer-center"> 
+		                <p class="footer-company-name" id="con">This website is only for a project in St. Xavier's School "Scince Fair" 2021.<br><span style="color: #ff5a5a">Not Official</span> </p>                  
+	                    <p class="footer-company-name" id="con">All Rights Reserved. &copy; 2021 <a href="#">St.Xavier's School </a>Design By : <a href="https://aiman65.github.io/my/" target="_blank">MD.SHAMSUL ALAM IMAN</a></p>
+	                    
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+</body>
+</html>
